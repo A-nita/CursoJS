@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    
+    <!-- R -> row -->
+    <!-- H -> header -->
+    <!-- D-> descrição (coluna) -->
+    <table>
+        <caption>Pessoas por Idade</caption>
+
+        <thead>
+           <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+           </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Law</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Anita</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total:</td>
+                <td>2 Pessoas</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <br>
+
+    <table>
+
+        <caption>Produtos por loja</caption>
+
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: red;">
+            <col span="2" style="background-color: blue;">
+        </colgroup>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2" scope="colgroup">Loja 1</th>
+                <th colspan="2" scope="colgroup">Loja 2</th>
+            </tr>
+
+            <tr>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+                <th scope="col">Produzidos</th>
+                <th scope="col">Vendidos</th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row">Nome Produto 1</th>
+                <td>5 un</td>
+                <td>4 un</td>
+                <td>10 un</td>
+                <td>6 un</td>
+            </tr>
+            <tr>
+                <th scope="row">Nome Produto 2</th>
+                <td>32 un</td>
+                <td>22 un</td>
+                <td>15 un</td>
+                <td>10 un</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+
+    
+</body>
+</html>
