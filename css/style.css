@@ -1,0 +1,66 @@
+:root {  /* ou html*/
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+image {
+    width: 30%;
+    height: 40%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    padding-top: 10px;
+}
+
+main {
+    padding-top: 10px;
+}
+
+.titulo {
+    padding: 20px;
+}
+.objetivo {
+    background-color: rgb(255, 185, 185);
+    padding: 20px;
+}
+
+.pessoas {
+    background-color: rgb(255, 211, 185);
+    padding: 20px;
+}
+
+.methods {
+    background-color: rgb(255, 239, 185);
+    padding: 20px;
+
+}
+
+.comofazer {
+    background-color: rgb(205, 255, 185);
+    padding: 20px;
+}
+
+.beneficios {
+    background-color: rgb(185, 255, 240);
+    padding: 20px;
+
+}
+h1 {
+    font-size: 4rem;
+    padding: 20px;
+}
+h2 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 2rem;
+}
+
+footer {
+    padding: 10px;
+    background-color: rgb(4, 4, 53);
+    color: rgb(185, 185, 185);
+    font-size: 1.2rem;
+}
