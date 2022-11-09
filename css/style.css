@@ -9,47 +9,51 @@ image {
 }
 
 body {
+    display: flexbox;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     padding-top: 10px;
+    height: 100vh;
+    width: auto;
 }
+
 
 main {
     padding-top: 10px;
 }
 
+.container {
+    border: solid 5px red;
+    padding: 1rem 1rem 2rem;
+    background-color: #FAFAFA;
+    line-height: 2.8rem;
+}
+
 .titulo {
     padding: 20px;
+    line-height: 3em;
 }
 .objetivo {
-    background-color: rgb(255, 185, 185);
-    padding: 20px;
+
 }
 
 .pessoas {
-    background-color: rgb(255, 211, 185);
-    padding: 20px;
+    
 }
 
 .methods {
-    background-color: rgb(255, 239, 185);
-    padding: 20px;
-
+   
 }
 
 .comofazer {
-    background-color: rgb(205, 255, 185);
-    padding: 20px;
+
 }
 
 .beneficios {
-    background-color: rgb(185, 255, 240);
-    padding: 20px;
-
+   
 }
 h1 {
     font-size: 4rem;
-    padding: 20px;
 }
 h2 {
     font-size: 3.5rem;
@@ -63,4 +67,5 @@ footer {
     background-color: rgb(4, 4, 53);
     color: rgb(185, 185, 185);
     font-size: 1.2rem;
+    bottom: 0;
 }
