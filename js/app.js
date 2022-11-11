@@ -5,3 +5,5 @@ console.log("Hello World!");
 // const
 // let
 // var => 
+
+function calculateDaysBetweenDates(begin, end) {
