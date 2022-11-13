@@ -1,4 +1,5 @@
 console.log("Hello World!");
+//Array em string: .join()
 
 // objetos
 const pessoa = {
